@@ -35,7 +35,7 @@ export default function HomeGallery({ currentLang, onOpenInquiry }: HomeGalleryP
             </span>
 
             <h1 className="font-serif text-[42px] md:text-[56px] lg:text-[68px] font-bold leading-[1.1] tracking-tight max-w-xl text-neutral-50">
-              {currentLang === "EN" ? "Heritage Reimagined. The Summer Collection." : "ผสานมรดกสรรสร้างใหม่ คอลเลกชันฤดูร้อนเกียรติยศ"}
+              {currentLang === "EN" ? "Heritage Reimagined The Summer Collection" : "ผสานมรดกสรรสร้างใหม่ คอลเลกชันฤดูร้อนเกียรติยศ"}
             </h1>
 
             <p className="text-[13px] md:text-sm font-sans text-neutral-300 max-w-md leading-relaxed tracking-wide">
