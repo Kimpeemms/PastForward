@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Hanken Grotesk", "Inter", sans-serif;
+  --color-heritage-red: #8B0000;
+  --color-metallic-gold: #D4AF37;
+  --color-secondary-gold: #e9c349;
+  --color-dark-wood: #2F1B12;
+  --color-ivory: #FCFBF4;
+  --color-surface-container: #efeee7;
+  --color-surface-low: #f5f4ed;
+  --color-surface-dim: #dbdad4;
+}
+
+/* Custom CSS Scrollbar and resets */
+body {
+  background-color: #fafaf3;
+  color: #1b1c18;
+  font-family: "Hanken Grotesk", "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.font-serif-luxury {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.font-sans-clean {
+  font-family: "Hanken Grotesk", "Inter", sans-serif;
+}
+
+/* Simple fade in animation classes */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+

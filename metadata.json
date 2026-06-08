@@ -1,0 +1,6 @@
+{
+  "name": "PastForward",
+  "description": "PastForward: High-Fashion Luxury digital gallery celebrating the centuries-old royal craftsmanship of Thai Yok Dok textiles, combined with exquisite 3D interactive silk animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
